@@ -1,8 +1,8 @@
 <?php 
 
-require('parser.php');
+require('sys.php');
 
-define('BOT_TOKEN', 'SEU TOKEN');
+define('BOT_TOKEN', '6031050050:AAERSKYVYE0vs1yUmDVvplqo5Q5XFJXMVao');
 define('API_URL', 'https://api.telegram.org/bot'.BOT_TOKEN.'/');
 
 function processMessage($message) {
